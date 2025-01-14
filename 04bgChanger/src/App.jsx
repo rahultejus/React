@@ -27,7 +27,7 @@ function App() {
 
             <button
             onClick={()=>setColor('pink')}
-              className="outline-none px-4 py-2 rounded-full text-white shadow-xl text-black"
+              className="outline-none px-4 py-2 rounded-full  shadow-xl "
               style={{ backgroundColor: "pink" }}
             >
               Pink
@@ -51,7 +51,7 @@ function App() {
 
             <button
               onClick={()=>setColor('yellow')}
-              className="outline-none px-4 py-2 rounded-full text-white shadow-xl text-black"
+              className="outline-none px-4 py-2 rounded-full  shadow-xl"
               style={{ backgroundColor: "yellow" }}
             >
               Yellow
@@ -75,7 +75,7 @@ function App() {
 
             <button
               onClick={()=>setColor('white')}
-              className="outline-none px-4 py-2 rounded-full text-white shadow-xl text-black"
+              className="outline-none px-4 py-2 rounded-full  shadow-xl"
               style={{ backgroundColor: "white" }}
             >
               White
@@ -91,6 +91,7 @@ function App() {
           </div>
         </div>
       </div>
+     
     </>
   );
 }
