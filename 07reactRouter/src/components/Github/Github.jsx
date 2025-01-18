@@ -13,9 +13,18 @@ function Github() {
     //     })
     // },[])
   return (
+    <>
     <div
     className='text-center m-4 bg-gray-500 p-4 text-3xl'
-    >Public Repos:{data.public_repos}</div>
+    >Public Repos:{data.public_repos}
+    <br/>
+     Github Following:{data.following}
+     <br/>
+     Github Follower:{data.followers}
+    <img src={data.avatar_url} alt="Profile Picture" />
+    </div>
+    
+    </>
   )
 }
 
